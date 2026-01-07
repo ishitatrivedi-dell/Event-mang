@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* ================================
+   THEME VARIABLES
+================================ */
+
+:root {
+  --accent: 59 130 246;        /* Blue */
+  --accent-hover: 37 99 235;
+  --accent-soft: 191 219 254;
+}
+
+.dark {
+  --glass-bg: rgba(20, 20, 20, 0.6);
+}
+
+/* ================================
+   BASE STYLES
+================================ */
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+      Inter, system-ui, sans-serif;
+
+    background: linear-gradient(
+      to bottom right,
+      rgb(244 244 245),
+      rgb(228 228 231)
+    );
+
+    color: rgb(39 39 42);
+  }
+
+  .dark body {
+    background: linear-gradient(
+      to bottom right,
+      rgb(24 24 27),
+      rgb(0 0 0)
+    );
+
+    color: rgb(244 244 245);
+  }
+}
+
+/* ================================
+   COMPONENT LAYER
+================================ */
+
+@layer components {
+  .glass {
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+
+    box-shadow:
+      0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .dark .glass {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
