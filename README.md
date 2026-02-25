@@ -3,9 +3,6 @@
 
 > A full-stack MERN application designed to manage **college events end-to-end**, including participant registrations, team management, certificate generation, and **event-level financial control** with budget tracking and approvals.
 
-🔗 **Live Demo:** [ADD LIVE LINK HERE]  
-🎥 **Demo Video:** [ADD DEMO VIDEO LINK HERE]  
-📺 **Feature Walkthrough:** [ADD WALKTHROUGH VIDEO LINK HERE]
 
 ---
 
@@ -243,4 +240,5 @@ Your Name
 🔗 LinkedIn: [ADD LINK HERE]
 💻 GitHub: [ADD LINK HERE]
 📧 Email: [ADD EMAIL HERE]
+
 
